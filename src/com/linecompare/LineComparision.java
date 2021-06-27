@@ -30,7 +30,8 @@ public class LineComparision
         Double length_of_line2 = Math.sqrt((p2-p1)*(p2-p1)+(q2-q1)*(q2-q1));
 
 		System.out.printf("length of 1st end points are : %.2f %n", length_of_line1);
-		System.out.printf("length of 2nd end points are : %.2f %n", length_of_line2);			boolean ans = length_of_line1.equals(length_of_line2);
+		System.out.printf("length of 2nd end points are : %.2f %n", length_of_line2);
+		boolean ans = length_of_line1.equals(length_of_line2);
 		if(ans)
 				System.out.println("Both lines are equal.");
 		else
